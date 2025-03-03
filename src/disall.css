@@ -1,0 +1,51 @@
+.sport_btn {
+  background: linear-gradient(45deg, #ff6f61, #de3d83);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sport_btn:hover {
+  background: linear-gradient(45deg, #de3d83, #ff6f61);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.sport_btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Increased spacing between buttons */
+  margin-top: 20px;
+}
+
+.sport-content {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.sport-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.sport-content p {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
