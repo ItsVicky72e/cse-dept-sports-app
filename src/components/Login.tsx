@@ -92,13 +92,13 @@ export default function Login() {
                                 <div className="d-flex justify-content-center mt-3 login_container">
                                     <button type="submit" name="button" className="btn login_btn">
                                         Login
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    );
+</button>
+</div>
+</form>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+);
 }

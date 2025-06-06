@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import NavBar from './NavBar';
-import "../styles.css"; // Assuming you have a CSS file for styling
+import "../styles.css"; 
 
 export default function UpcomingEvent() {
   const [activeEvent, setActiveEvent] = useState('');

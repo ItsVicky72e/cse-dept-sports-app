@@ -47,7 +47,7 @@ export default function DisplayAllEvents() {
 
       {activeSport === 'basketball' && (
         <div className="sport-content">
-          <img src="https://static01.nyt.com/images/2019/10/06/magazine/06mag-indiannba/06mag-indiannba-videoSixteenByNineJumbo1600.jpg" alt="Basketball Tournament" />
+          <img src="https://assets.fiba.basketball/image/upload/w_500,h_282,c_fill,g_auto/q_auto/f_auto/v1/8b181e58-74d5-43c6-b848-f97fb3b06a38" />
           <p><strong>The BASKETBALL tournament was an electrifying event with incredible performances by teams.</strong></p>
         </div>
       )}
